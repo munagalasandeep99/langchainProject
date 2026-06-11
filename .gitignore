@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+sdist/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Environment variables & secrets
+.env.local
+.env.*.local
+*.env
+secrets.yaml
+secrets.json
+
+# API Keys (extra safety)
+.openai
+.anthropic
+config/secrets*
+
+# LangChain / LLM specific
+.langchain.db
+langchain_cache/
+.cache/
+chroma_db/
+faiss_index/
+vectorstore/
+*.faiss
+*.pkl
+*.index
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+a.txt
+ancient_godly_monarch.txt
